@@ -1,0 +1,20 @@
+﻿
+/*  Universal Reset */
+
+*
+{
+    margin: 0;
+    padding:0;
+}
+
+/* End Universal Reset */
+
+body
+{
+    font-family: Verdana;
+}
+
+header
+{
+    height:70px;
+}

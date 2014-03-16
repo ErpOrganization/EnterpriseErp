@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title</title>
+        <meta name="viewport" content="width=device-width" />
+        
+        <!-- Render modernizr and Themes bundled -->
+        @Styles.Render("~/Content/themes/EasyUi/css")
+        @Scripts.Render("~/bundles/modernizr")
+
+    </head>
+    <body>
+        <!-- Generic Header -->
+        <header>
+            <a href="#">Software Name</a>
+            <!-- Navigation -->
+        </header>
+
+        <!-- Render Views -->
+        @RenderBody()
+
+        <!-- Render jquery and layout scripts -->
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/easyui")
+
+    </body>
+</html>
