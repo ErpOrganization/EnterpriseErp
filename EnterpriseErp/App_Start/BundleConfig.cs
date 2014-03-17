@@ -14,7 +14,8 @@ namespace EnterpriseErp
 
             //Bundle easyui scripts
             bundles.Add(new ScriptBundle("~/bundles/easyui").Include(
-                        "~/Scripts/EasyUi/jquery.easyui.js"
+                        "~/Scripts/EasyUi/jquery.easyui.js",
+                        "~/Scripts/Site.js"
                         ));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
